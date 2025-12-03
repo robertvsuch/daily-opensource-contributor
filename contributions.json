@@ -1,0 +1,31 @@
+[
+  {
+    "date": "2025-12-03T19:55:59.886478",
+    "issues": [
+      {
+        "repo": "apache/airflow",
+        "number": 58932,
+        "title": "Check if airflow is mounted from Windows filesystem in Breeze",
+        "url": "https://github.com/apache/airflow/issues/58932",
+        "label": "good first issue",
+        "body": "Airflow can only work with POSIX filesystems and there are numerous issues (permissions, executable bits and the like) when Airflow sources are checked out (for development) on Windows and mounted int"
+      },
+      {
+        "repo": "apache/airflow",
+        "number": 58928,
+        "title": "TriggerDagRunOperator: button Triggered DAG not shown",
+        "url": "https://github.com/apache/airflow/issues/58928",
+        "label": "good first issue",
+        "body": "### Apache Airflow version\n\nOther Airflow 2/3 version (please specify below)\n\n### If \"Other Airflow 2/3 version\" selected, which one?\n\n3.1.0\n\n### What happened?\n\nWhen the child DAG is triggered by Tri"
+      },
+      {
+        "repo": "tensorflow/tensorflow",
+        "number": 22926,
+        "title": "Feature Request: GPUOptions for Go binding",
+        "url": "https://github.com/tensorflow/tensorflow/issues/22926",
+        "label": "good first issue",
+        "body": "Current implementation of Go binding can not specify options.\r\n\r\nGPUOptions struct is in internal package. And `go generate` doesn't work for protobuf directory. So we can't specify GPUOptions for `Ne"
+      }
+    ]
+  }
+]
