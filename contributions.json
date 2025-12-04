@@ -27,5 +27,34 @@
         "body": "Current implementation of Go binding can not specify options.\r\n\r\nGPUOptions struct is in internal package. And `go generate` doesn't work for protobuf directory. So we can't specify GPUOptions for `Ne"
       }
     ]
+  },
+  {
+    "date": "2025-12-04T09:26:15.527609",
+    "issues": [
+      {
+        "repo": "apache/airflow",
+        "number": 59032,
+        "title": "Correct xcom patch API to be usable with tasks",
+        "url": "https://github.com/apache/airflow/issues/59032",
+        "label": "good first issue",
+        "body": "### Body\n\nContext: https://github.com/apache/airflow/pull/58900#discussion_r2577456791\n\nIf we use the xcom patch API to perform an update on an XCom via the PATCH API, you wouldn't really get a usable"
+      },
+      {
+        "repo": "apache/airflow",
+        "number": 58999,
+        "title": "Creating a virtual environment via uv venv fail without direct internet access",
+        "url": "https://github.com/apache/airflow/issues/58999",
+        "label": "good first issue",
+        "body": "### Apache Airflow Provider(s)\n\nstandard\n\n### Versions of Apache Airflow Providers\n\n[apache-airflow-providers-standard:1.9.1](https://airflow.apache.org/docs/apache-airflow-providers-standard/1.9.1/)\n"
+      },
+      {
+        "repo": "tensorflow/tensorflow",
+        "number": 22926,
+        "title": "Feature Request: GPUOptions for Go binding",
+        "url": "https://github.com/tensorflow/tensorflow/issues/22926",
+        "label": "good first issue",
+        "body": "Current implementation of Go binding can not specify options.\r\n\r\nGPUOptions struct is in internal package. And `go generate` doesn't work for protobuf directory. So we can't specify GPUOptions for `Ne"
+      }
+    ]
   }
 ]
