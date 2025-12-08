@@ -143,5 +143,34 @@
         "body": "Current implementation of Go binding can not specify options.\r\n\r\nGPUOptions struct is in internal package. And `go generate` doesn't work for protobuf directory. So we can't specify GPUOptions for `Ne"
       }
     ]
+  },
+  {
+    "date": "2025-12-08T09:29:38.944772",
+    "issues": [
+      {
+        "repo": "apache/airflow",
+        "number": 59093,
+        "title": "XCom.get_value() via SDK fails in extra link plugin with SUPERVISOR_COMMS ImportError",
+        "url": "https://github.com/apache/airflow/issues/59093",
+        "label": "good first issue",
+        "body": "### Apache Airflow version\n\n3.1.3\n\n### If \"Other Airflow 2/3 version\" selected, which one?\n\n_No response_\n\n### What happened?\n\nWhen using XCom.get_value from the Task SDK / compat SDK inside an extra "
+      },
+      {
+        "repo": "apache/airflow",
+        "number": 59032,
+        "title": "Correct xcom patch API to be usable with tasks",
+        "url": "https://github.com/apache/airflow/issues/59032",
+        "label": "good first issue",
+        "body": "### Body\n\nContext: https://github.com/apache/airflow/pull/58900#discussion_r2577456791\n\nIf we use the xcom patch API to perform an update on an XCom via the PATCH API, you wouldn't really get a usable"
+      },
+      {
+        "repo": "tensorflow/tensorflow",
+        "number": 22926,
+        "title": "Feature Request: GPUOptions for Go binding",
+        "url": "https://github.com/tensorflow/tensorflow/issues/22926",
+        "label": "good first issue",
+        "body": "Current implementation of Go binding can not specify options.\r\n\r\nGPUOptions struct is in internal package. And `go generate` doesn't work for protobuf directory. So we can't specify GPUOptions for `Ne"
+      }
+    ]
   }
 ]
