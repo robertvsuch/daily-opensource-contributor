@@ -230,5 +230,34 @@
         "body": "Current implementation of Go binding can not specify options.\r\n\r\nGPUOptions struct is in internal package. And `go generate` doesn't work for protobuf directory. So we can't specify GPUOptions for `Ne"
       }
     ]
+  },
+  {
+    "date": "2025-12-11T09:27:05.892595",
+    "issues": [
+      {
+        "repo": "apache/airflow",
+        "number": 59229,
+        "title": "Switch to newer OpenApi generator (7.18.0) and add auto-upgrade open-api when \"ci upgrade\" is run",
+        "url": "https://github.com/apache/airflow/issues/59229",
+        "label": "good first issue",
+        "body": "The new 7.18.0 open-api generator is going to be soon released with the fix to remove deprecated urllib3 getheaders method: https://github.com/OpenAPITools/openapi-generator/pull/22520\n\nWe should upgr"
+      },
+      {
+        "repo": "apache/airflow",
+        "number": 59093,
+        "title": "XCom.get_value() via SDK fails in extra link plugin with SUPERVISOR_COMMS ImportError",
+        "url": "https://github.com/apache/airflow/issues/59093",
+        "label": "good first issue",
+        "body": "### Apache Airflow version\n\n3.1.3\n\n### If \"Other Airflow 2/3 version\" selected, which one?\n\n_No response_\n\n### What happened?\n\nWhen using XCom.get_value from the Task SDK / compat SDK inside an extra "
+      },
+      {
+        "repo": "tensorflow/tensorflow",
+        "number": 22926,
+        "title": "Feature Request: GPUOptions for Go binding",
+        "url": "https://github.com/tensorflow/tensorflow/issues/22926",
+        "label": "good first issue",
+        "body": "Current implementation of Go binding can not specify options.\r\n\r\nGPUOptions struct is in internal package. And `go generate` doesn't work for protobuf directory. So we can't specify GPUOptions for `Ne"
+      }
+    ]
   }
 ]
