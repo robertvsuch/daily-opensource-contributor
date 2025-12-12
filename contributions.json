@@ -259,5 +259,34 @@
         "body": "Current implementation of Go binding can not specify options.\r\n\r\nGPUOptions struct is in internal package. And `go generate` doesn't work for protobuf directory. So we can't specify GPUOptions for `Ne"
       }
     ]
+  },
+  {
+    "date": "2025-12-12T09:26:24.997193",
+    "issues": [
+      {
+        "repo": "apache/airflow",
+        "number": 59358,
+        "title": "UI E2E Test || BROWSE-003: Verify XComs list displays",
+        "url": "https://github.com/apache/airflow/issues/59358",
+        "label": "good first issue",
+        "body": "### Description\n\n_No response_\n\n### Use case/motivation\n\n_No response_\n\n### Related issues\n\n_No response_\n\n### Are you willing to submit a PR?\n\n- [ ] Yes I am willing to submit a PR!\n\n### Code of Cond"
+      },
+      {
+        "repo": "apache/airflow",
+        "number": 59357,
+        "title": "UI E2E Test || TASKS-001: Verify all task instances display",
+        "url": "https://github.com/apache/airflow/issues/59357",
+        "label": "good first issue",
+        "body": "### Description\n\n_No response_\n\n### Use case/motivation\n\n_No response_\n\n### Related issues\n\n_No response_\n\n### Are you willing to submit a PR?\n\n- [x] Yes I am willing to submit a PR!\n\n### Code of Cond"
+      },
+      {
+        "repo": "tensorflow/tensorflow",
+        "number": 22926,
+        "title": "Feature Request: GPUOptions for Go binding",
+        "url": "https://github.com/tensorflow/tensorflow/issues/22926",
+        "label": "good first issue",
+        "body": "Current implementation of Go binding can not specify options.\r\n\r\nGPUOptions struct is in internal package. And `go generate` doesn't work for protobuf directory. So we can't specify GPUOptions for `Ne"
+      }
+    ]
   }
 ]
